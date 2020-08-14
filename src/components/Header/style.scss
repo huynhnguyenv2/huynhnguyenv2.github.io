@@ -1,0 +1,34 @@
+.site-header {
+  position: absolute;
+  top: 0;
+  margin-bottom: 0;
+  padding: 1rem;
+  width: 100%;
+
+  .site-logo a {
+    text-transform: uppercase;
+    color: #f26200;
+    font-family: "Jost", sans-serif;
+  }
+
+  .site-menu-toggle {
+    color:  #f26200 !important;
+  }
+
+  .site-navigation .site-menu {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+
+    > li {
+      display: inline-block;
+
+      > a {
+        padding: 20px 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+}

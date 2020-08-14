@@ -1,0 +1,46 @@
+.footer-area{
+  background-color: #080827;
+
+  .footer-padding {
+    padding-top: 150px;
+    padding-bottom: 136px;
+  }
+
+  .footer-top .footer-top-cap {
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    span a {
+      font-size: 24px;
+      display: block;
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+
+  .footer-bottom .footer-copy-right p {
+    color: #dfe0e9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 12px;
+
+    i {
+      color: red;
+    }
+  }
+  .footer-social p a {
+    color: #bbbbcc;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
